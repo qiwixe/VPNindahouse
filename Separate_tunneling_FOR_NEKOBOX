@@ -32,7 +32,8 @@
         "telegram",
         "whatsapp",
         "steamdb",
-        "Touchskins"
+        "Touchskins",
+        "imgur"
     ],
     "outbound": "proxy"
 }
