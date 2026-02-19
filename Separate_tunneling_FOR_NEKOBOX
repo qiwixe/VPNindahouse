@@ -1,0 +1,46 @@
+[{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "route",
+    "outbound": "proxy",
+    "rule_set": [
+        "geoip-ru-blocked",
+        "geosite-ru-blocked"
+    ]
+}
+,{
+    "action": "route",
+    "domain_keyword": [
+        "google"
+    ],
+    "outbound": "direct"
+}
+,{
+    "action": "route",
+    "outbound": "direct",
+    "process_name": [
+        "steam.exe"
+    ]
+}
+,{
+    "action": "route",
+    "domain_keyword": [
+        "7tv",
+        "libria",
+        "telegram",
+        "whatsapp",
+        "steamdb"
+    ],
+    "outbound": "proxy"
+}
+,{
+    "action": "route",
+    "outbound": "proxy",
+    "process_name": [
+        "Telegram.exe",
+        "Discord.exe"
+    ]
+}
+]
