@@ -31,7 +31,7 @@
         "libria",
         "telegram",
         "whatsapp",
-        "steamdb"
+        "steamdb",
         "Touchskins"
     ],
     "outbound": "proxy"
