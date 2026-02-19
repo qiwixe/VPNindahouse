@@ -36,6 +36,13 @@
         "imgur"
     ],
     "outbound": "proxy"
+},
+{
+    "action": "route",
+    "domain": [
+        "qiwixe.site"
+    ],
+    "outbound": "direct"
 }
 ,{
     "action": "route",
