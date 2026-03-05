@@ -13,7 +13,8 @@
 ,{
     "action": "route",
     "domain_keyword": [
-        "google"
+        "google",
+        "dns-shop"
     ],
     "outbound": "direct"
 }
@@ -33,7 +34,8 @@
         "whatsapp",
         "steamdb",
         "Touchskins",
-        "imgur"
+        "imgur",
+        "riotgames"
     ],
     "outbound": "proxy"
 },
@@ -49,7 +51,8 @@
     "outbound": "proxy",
     "process_name": [
         "Telegram.exe",
-        "Discord.exe"
+        "Discord.exe",
+        "easyeda.exe"
     ]
 }
 ]
