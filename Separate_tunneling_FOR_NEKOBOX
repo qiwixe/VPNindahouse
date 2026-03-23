@@ -37,8 +37,7 @@
         "Touchskins",
         "imgur",
         "speedtest",
-        "opentabletdriver",
-        "riotgames"
+        "opentabletdriver"
     ],
     "outbound": "proxy"
 },
