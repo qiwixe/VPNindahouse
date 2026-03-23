@@ -22,7 +22,8 @@
     "action": "route",
     "outbound": "direct",
     "process_name": [
-        "steam.exe"
+        "steam.exe",
+        "RiotClientServices.exe"
     ]
 }
 ,{
@@ -35,6 +36,8 @@
         "steamdb",
         "Touchskins",
         "imgur",
+        "speedtest",
+        "opentabletdriver",
         "riotgames"
     ],
     "outbound": "proxy"
